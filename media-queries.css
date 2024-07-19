@@ -1,0 +1,290 @@
+/* @media screen and (max-width: 1111px){
+    .main-container-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        
+        
+    }
+
+    .logo-div {
+        width: 220px;
+        height: 40px;
+        border: 2px solid blue;
+     
+        
+       
+    
+    }
+    .logo {
+        width: 220px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+    
+    
+    } */
+
+
+    @media screen and (max-with: 450px) {
+        .main-container-4 {
+            border: 8px solid yellowgreen;
+            background: gray;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* grid-template-rows: repeat(2,1fr); */
+        }  
+    }
+    
+@media screen and (max-width: 991px) {
+#main-div1{
+    border: 2px solid rgb(128, 0, 0);
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}  
+
+
+
+.main-container-3 {
+    border: 2px solid rgb(51, 0, 255);
+    display: grid;
+    justify-content: center; 
+    
+    
+}
+
+.container-bottom-left {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;    
+    margin-top: 0px;
+    text-align: center;
+}
+.h1 {
+    font-family: sans-serif;
+    color: hsl(0, 5%, 19%);
+    letter-spacing: .6px;
+}
+.bottom-p {
+    font-family: sans-serif;
+    color: rgb(89, 87, 87);
+    line-height: 25px;
+    letter-spacing: .6px;
+
+}
+.button-start {
+    padding: 9px 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(41, 139, 230);
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+.container-bottom-right {
+    width: 100%;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ima2 {
+    object-fit: cover;
+    aspect-ratio: 1;
+
+}
+.p3 {
+    font-family: sans-serif;
+    color: rgb(50, 49, 49);
+    line-height: 25px;
+    letter-spacing: .6px;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-container-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+    height: 200px;
+    
+}
+
+.logo-div {
+    width: 280px;
+    height: 80px;
+    border: 2px solid blue;
+}
+.logo {
+    width: 280px;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    
+
+
+}
+
+.button3 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color: white;
+    width: 50%;
+}
+.button3-link{
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+}
+.button3:hover{
+    background-color:rgb(41, 139, 230) ;
+    color: white;
+}
+.main-container-5 {
+    border: 2px solid blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* grid-template-rows: repeat(2 / 1fr); */
+    gap: 50px;
+    justify-items: center;
+    margin-top: 50px;
+    /* padding: 20px; */
+    justify-content: space-evenly;
+}
+.child-container {
+    border: 2px solid black;
+}
+.main-container-7 {
+    height: 350px;
+    border: 2px solid red;
+    display: grid;
+    margin-top: 50px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+
+.child-container3-left {
+    border: 2px solid brown;
+}
+
+.child-container3-right {
+    border: 2px solid red;
+    display: block;
+    margin: auto;
+}
+
+.pics2 {
+    /* width: 490px;
+    height: 350px; */
+    border-radius: 40px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+.main-container-10{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-rows: repeat(3 , 1fr);
+    border: 2px solid rgb(128, 0, 85);
+   
+    
+}
+.first-card{
+    /* width: 23%; */
+    height: 500px;
+    border: 2px solid fuchsia;
+    background-image: url(../project-11-5-24/pics./ashi4.jpeg);
+    background-blend-mode: darken;
+    background-size: 300px;
+    position: relative;
+    background-size: cover;
+    }
+    
+    .first-text{
+    text-decoration: none;
+    color: rgb(240, 248, 5);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    font-family: sans-serif;
+    }
+    
+    .first-text:hover{
+        color: rgb(197, 244, 8);
+    }
+    
+    .second-card{
+        /* width: 23%; */
+        height: 500px;
+        border: 2px solid fuchsia;
+        background-image: url(../project-11-5-24/pics./ashi6.jpeg);
+        background-size: 300px;
+        position: relative;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    
+    .second-text{
+        text-decoration: none;
+        color: rgb(240, 248, 5);
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        font-family: sans-serif;
+    }
+    
+    .third-card{
+        /* width: 23%; */
+        height: 500px;
+        border: 2px solid fuchsia;
+        background-image: url(../project-11-5-24/pics./tanni.jpeg);
+        background-size: 300px;
+        position: relative;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    
+    .third-text{
+        text-decoration: none;
+        color: rgb(240, 248, 5);
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        font-family: sans-serif;
+    }
+    
+    .forth-card{
+        /* width: 23%; */
+        height: 500px;
+        border: 2px solid fuchsia;
+        background-image: url(../project-11-5-24/pics./tanni2.jpeg);
+        background-size: 300px;
+        position: relative;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    
+    .forth-text{
+        text-decoration: none;
+        color: rgb(240, 248, 5);
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        font-family: sans-serif;
+    }
+}
+
+
+  
